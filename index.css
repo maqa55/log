@@ -1,13 +1,28 @@
 #box {
   width: 50%;
   margin: auto;
+  background-color: gainsboro;
 }
 #box div textarea {
   width: 100%;
   height: 20vh;
-  border: 1px solid #CED4DA;
+  border: none;
   border-radius: 5px;
   outline: none;
+}
+#box div input {
+  border: none;
+}
+#box .textbox {
+  margin-top: 15px;
+}
+#box label {
+  font-weight: 700;
+}
+#box button {
+  background-color: gray;
+  border: none;
+  margin-top: 20px;
 }
 
 @media (max-width: 576px) {
