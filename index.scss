@@ -1,0 +1,23 @@
+#box{
+    width: 50%;
+    margin: auto;
+    div{
+        textarea{
+            width: 100%;
+            height: 20vh;
+            border: 1px solid #CED4DA;
+            border-radius: 5px;
+            outline: none;
+        }
+    }
+}
+@media(max-width:576px){
+    #box{
+        width: 100%;
+        div{
+            textarea{
+                height: 15vh;
+            }
+        }
+    }
+}

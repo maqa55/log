@@ -1,0 +1,20 @@
+#box {
+  width: 50%;
+  margin: auto;
+}
+#box div textarea {
+  width: 100%;
+  height: 20vh;
+  border: 1px solid #CED4DA;
+  border-radius: 5px;
+  outline: none;
+}
+
+@media (max-width: 576px) {
+  #box {
+    width: 100%;
+  }
+  #box div textarea {
+    height: 15vh;
+  }
+}/*# sourceMappingURL=index.css.map */
