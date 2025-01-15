@@ -1,0 +1,51 @@
+#box {
+    background-color: rgba(235, 234, 234, 0.74);
+    padding: 1rem 0;
+    .mini-box {
+        width: 50%;
+        margin: auto;
+        div {
+            textarea {
+                width: 100%;
+                height: 20vh;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+            }
+
+            input {
+                border: none;
+            }
+        }
+
+        .textbox {
+            margin-top: 15px;
+        }
+
+        label {
+            font-weight: 700;
+        }
+
+        button {
+            background-color: gray;
+            border: none;
+            margin-top: 20px;
+        }
+    }
+
+}
+
+@media(max-width:576px) {
+    #box{
+
+        .mini-box {
+            width: 100%;
+    
+            div {
+                textarea {
+                    height: 15vh;
+                }
+            }
+        }
+    }
+}

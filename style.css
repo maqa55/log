@@ -1,0 +1,144 @@
+#boxes {
+  padding: 2rem 0;
+  background-color: silver;
+}
+#boxes .text-box p {
+  width: 60%;
+  margin: auto;
+  padding: 15px 0;
+  font-size: 19px;
+  font-weight: 600;
+}
+#boxes .boxes-mini {
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+#boxes .boxes-mini .leftbox div textarea {
+  width: 100%;
+  height: 15vh;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+#boxes .boxes-mini .leftbox div input {
+  border: none;
+}
+#boxes .boxes-mini .leftbox label {
+  font-weight: 700;
+}
+#boxes .boxes-mini .leftbox button {
+  background-color: gray;
+  border: none;
+  margin-top: 20px;
+}
+#boxes .boxes-mini .leftbox .textbox {
+  margin-top: 10px;
+}
+#boxes .boxes-mini .rightbox div .topbox {
+  width: 85%;
+  margin: auto;
+}
+#boxes .boxes-mini .rightbox div .topbox .box1 {
+  margin-top: 15px;
+  width: 90%;
+}
+#boxes .boxes-mini .rightbox div .topbox .box1 div p {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+#boxes .boxes-mini .bottombox {
+  width: 85%;
+  margin: 15px auto;
+}
+#boxes .boxes-mini .bottombox div p {
+  margin-left: 35px;
+  font-size: 18px;
+}
+#boxes .boxes-mini .bottombox div .underline {
+  text-decoration: underline;
+}
+#boxes .map {
+  margin: auto;
+  width: 87%;
+  padding: 3rem 0;
+}
+
+@media (max-width: 576px) {
+  #boxes .map {
+    display: none;
+  }
+  #boxes .text-box p {
+    width: 90%;
+  }
+  #boxes .boxes-mini {
+    width: 95%;
+    margin: auto;
+    padding: 1.5rem 0;
+    flex-direction: column-reverse;
+  }
+  #boxes .boxes-mini .leftbox {
+    margin-top: 10px;
+    width: 100%;
+  }
+  #boxes .boxes-mini .leftbox .textbox {
+    margin-top: 5px;
+  }
+  #boxes .boxes-mini .rightbox div .topbox {
+    width: 100%;
+  }
+  #boxes .boxes-mini .rightbox div .topbox .box1 {
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+  }
+  #boxes .boxes-mini .rightbox div .topbox .box1 .secondbox {
+    padding: 7px 0;
+  }
+  #boxes .boxes-mini .bottombox {
+    width: 100%;
+    margin: 10px auto;
+  }
+  #boxes .boxes-mini .bottombox div p {
+    padding: 5px 0;
+  }
+}
+#box {
+  background-color: rgba(235, 234, 234, 0.74);
+  padding: 1rem 0;
+}
+#box .mini-box {
+  width: 50%;
+  margin: auto;
+}
+#box .mini-box div textarea {
+  width: 100%;
+  height: 20vh;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+#box .mini-box div input {
+  border: none;
+}
+#box .mini-box .textbox {
+  margin-top: 15px;
+}
+#box .mini-box label {
+  font-weight: 700;
+}
+#box .mini-box button {
+  background-color: gray;
+  border: none;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  #box .mini-box {
+    width: 100%;
+  }
+  #box .mini-box div textarea {
+    height: 15vh;
+  }
+}/*# sourceMappingURL=style.css.map */

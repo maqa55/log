@@ -1,0 +1,156 @@
+#boxes {
+    padding: 2rem 0;
+    background-color: silver;
+
+    .text-box {
+        p {
+            width: 60%;
+            margin: auto;
+            padding: 15px 0;
+            font-size: 19px;
+            font-weight: 600;
+        }
+    }
+
+    .boxes-mini {
+        width: 90%;
+        margin: auto;
+        padding: 1.5rem 0;
+
+        .leftbox {
+            div {
+                textarea {
+                    width: 100%;
+                    height: 15vh;
+                    border: none;
+                    border-radius: 5px;
+                    outline: none;
+                }
+
+                input {
+                    border: none;
+                }
+            }
+
+            label {
+                font-weight: 700;
+            }
+
+            button {
+                background-color: gray;
+                border: none;
+                margin-top: 20px;
+            }
+
+            .textbox {
+                margin-top: 10px;
+            }
+        }
+
+        .rightbox {
+            div {
+                .topbox {
+                    width: 85%;
+                    margin: auto;
+
+                    .box1 {
+                        margin-top: 15px;
+                        width: 90%;
+
+                        div {
+                            p {
+                                font-size: 18px;
+                                margin: 0;
+                                padding: 0;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .bottombox {
+            width: 85%;
+            margin: 15px auto;
+
+            div {
+                p {
+                    margin-left: 35px;
+                    font-size: 18px;
+                }
+
+                .underline {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .map {
+        margin: auto;
+        width: 87%;
+        padding: 3rem 0;
+    }
+}
+
+@media(max-width:576px) {
+    #boxes {
+        .map {
+            display: none;
+        }
+
+        .text-box {
+            p {
+                width: 90%;
+            }
+        }
+
+        .boxes-mini {
+            width: 95%;
+            margin: auto;
+            padding: 1.5rem 0;
+            flex-direction: column-reverse;
+
+            .leftbox {
+                margin-top: 10px;
+                width: 100%;
+
+                .textbox {
+                    margin-top: 5px;
+                }
+            }
+
+            .rightbox {
+                div {
+                    .topbox {
+                        width: 100%;
+
+                        .box1 {
+                            flex-direction: column;
+                            margin-top: 15px;
+                            width: 100%;
+
+                            .secondbox {
+                                padding: 7px 0;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .bottombox {
+                width: 100%;
+                margin: 10px auto;
+
+                div {
+                    p {
+                        padding: 5px 0;
+                    }
+
+                }
+            }
+        }
+    }
+}
